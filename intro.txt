@@ -4,3 +4,12 @@ trjel gkjelørk dlfkanaslk n sdlkaf lk
 
 git config --global user.name "Your Name"
 git config --global user.email "youremail@yourdomain.com"
+
+
+
+
+git  - source contrl on desktop 
+github - sursce control on cloud 
+
+
+master is a branch 
