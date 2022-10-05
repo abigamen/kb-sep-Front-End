@@ -1,0 +1,26 @@
+
+HTML
+=> For the browser, create control 
+=> 
+
+HTMLis a language for browser 
+not a programing languge.
+Just a makeup language.
+    => because of the grammer and syntax
+    => <HTML> other contect                                         less interputartion
+    => <HTML> other content. </HTML>
+
+=>Hypertext/Hyperlink. 
+
+
+Signup form 
+    1. name 
+    2. email
+    3. passord
+    4. phone
+    5. dob
+    6. gender 
+    7. username
+    8. address.
+    9. country
+

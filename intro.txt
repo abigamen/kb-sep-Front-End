@@ -13,3 +13,9 @@ github - sursce control on cloud
 
 
 master is a branch 
+
+
+open source application 
+    where code is publicly avalable 
+
+
