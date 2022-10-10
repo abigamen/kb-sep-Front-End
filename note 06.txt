@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dvi is container
+
+what is Element 
+    => from opening tags to closing tagsarea
+
+Inline Element
+    => occupies UI/browser space as much as it needs.
+    =>Inline E 
