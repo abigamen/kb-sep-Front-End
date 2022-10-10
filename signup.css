@@ -1,11 +1,15 @@
 
 /*CSS configuration */
-#formContainer { 
-background-color: yellow ;
+#formContainer {
+background-color: orchid ;
+}
+#formContainer2div {
+background-color: orchid;
 }
 h3{
 color: green;
 }
+colorofsubmit
 /* tag selector */
 span{
 color: blue;
@@ -19,7 +23,7 @@ border: 1px solid green;
 /* if it doesnt have any tag og ID or class, so it'll apply */
 /*  this is lowest priority */
 /* class selector */
-*{
-color: orange;
+ *{
+background-color: orange;
 
-}
+} 
