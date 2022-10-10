@@ -17,11 +17,16 @@ it is written
 
 
 css selctors
-help you select Element
+
+help you select Element where styles need to be applied.
+
+ID applied unique styles. can be applied to just one contorls
+
+TagName applies styles to all the matching Tags.
+
+class is a custom cssc configutatuin to apply on different elements 
+
+* is a star that applied to all elements in the page as least priority
 
 
-
-
-
-
-star * it apply to all Element
+Background-color. 
