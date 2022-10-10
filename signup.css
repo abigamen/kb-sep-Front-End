@@ -1,0 +1,25 @@
+
+/*CSS configuration */
+#formContainer { 
+background-color: yellow ;
+}
+h3{
+color: green;
+}
+/* tag selector */
+span{
+color: blue;
+}
+/* class selector */
+.text-wrapper{
+/* border: width, px= pixels tipe og border, solid color of border  */
+border: 1px solid green;
+}
+
+/* if it doesnt have any tag og ID or class, so it'll apply */
+/*  this is lowest priority */
+/* class selector */
+*{
+color: orange;
+
+}
