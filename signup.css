@@ -1,8 +1,11 @@
 
 /*CSS configuration */
+/* ID selector  */
 #formContainer {
+    /* the syntax is cssproperty: value */
 background-color: orchid ;
 }
+/* ID selector */
 #formContainer2div {
 background-color: orchid;
 }
@@ -10,7 +13,7 @@ h3{
 color: green;
 }
 colorofsubmit
-/* tag selector */
+/* Tag selector */
 span{
 color: blue;
 }
@@ -19,11 +22,9 @@ color: blue;
 /* border: width, px= pixels tipe og border, solid color of border  */
 border: 1px solid green;
 }
-
 /* if it doesnt have any tag og ID or class, so it'll apply */
 /*  this is lowest priority */
 /* class selector */
  *{
 background-color: orange;
-
-} 
+}
