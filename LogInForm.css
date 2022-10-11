@@ -4,4 +4,10 @@
 #Background{
     background-color: black;
     color: antiquewhite;
+   
+
 }
+
+    #point {
+        cursor: pointer;
+    }
