@@ -9,52 +9,25 @@
         <!-- Head includes header information about the page. -->
         
         <head>
-<link rel="stylesheet" href="signup.css">   <!-- ../ is the path for parent folder -->
-<!-- <link rel="stylesheet" href="../hello world.js"> -->
-
-            <!-- <style>
-                /*CSS configuration */
-           #formContainer { 
-            background-color: yellow ;
-           }
-           h3{
-            color: green;
-           }
-        
-           span{
-            color: blue;
-           }
-           .text-wrapper{
-            /* border: width, px= pixels tipe og border, solid color of border  */
-            border: 1px solid green;
-           }
-
-           /* if it doesnt have any tag og ID or class, so it'll apply */
-           /*  this is lowest priority */
-           *{
-            color: orange;
-
-           }
-            </style> -->
+            <link rel="stylesheet" href="signupNew.css">
+         
         </head>
-        <!-- Body contains all the controls for UI. -->
-        
+        <!-- Body is also element and contains all the controls for UI to form website. -->
         <body>
-            <h1>You need to signup before you can use our services.</h1>
-            <h3>Please Sign Up</h3>
-            <!-- <h3>Please Sign Up</h3>
-            <h4>Please Sign Up</h4>
-            <h5>Please Sign Up</h5>
-            <h6>Please Sign Up</h6> -->
-<!--this is a parent of form-->
+            <!-- this is Header nummber one -->
+            <h1 id="SignupHeader"> Please Sign Up.</h1>
+
+            <!-- line section to separate -->
+            <hr>
+            <!--this is a parent of form-->
        <!-- div is bigger container-->
 
-       <!-- styles is altribute app css -->
+       <!-- styles is altribute(bahri) applied css -->
         <div id="formContainer">
         
          <!-- form is a parent of input form-->
-         <!--  -->
-            <form> 
+
+         <form> 
                 <label>Enter Your Name</label>
                 <input type="text" />
                 <br />
@@ -88,13 +61,13 @@
                     <option value="1">UK</option>
                     <option value="2">China</option>
                     <option value="3">India</option>
-                    <option value="4">S Korea</option>
+                    <option value="4">South Africa</option>
+                    <option value="5">Etiopia</option>
                 </select>
             <br/>
          <!-- submit tries reading data from controls and submit/send to server,-->      
         <input type="submit" value="save" id="colorofsubmit"/>
        <button type="reset">clear</button> 
-            <!-- <input type "button" value="save"/>-->
             </form>
         </div>
 
@@ -110,8 +83,8 @@
                 another div 
             </div>
         
-            <h3>End of Form</h3>
-        
+            <h1>End of Form</h1>
+                   
         </body>
         
         </html>
