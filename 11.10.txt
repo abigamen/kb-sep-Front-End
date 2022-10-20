@@ -12,3 +12,16 @@ sign up header
     color 
     Increse font size 
     Change Font.
+
+    2. Container
+        some padding.
+        some margin.
+        Light Border.
+
+control for signin 
+    diplay as block-level 
+    width and height 
+    font size and font family
+    Border-radis
+    since break in not good of practice to make space
+    spacing around control [Container] like with div

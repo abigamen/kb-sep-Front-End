@@ -1,0 +1,138 @@
+.container{
+/* flex is just make the flexible element and not block*/
+    display: flex;
+    width: 1100;
+    height: 1000;
+    background-color: aliceblue;
+}
+
+.left-container{
+    width: 50%;
+}
+
+
+#SignupHeader{
+    color: royalblue;
+    font-size: 50px;
+    /* I do not understand this */
+    font-weight: bold;
+    background-color: rosybrown;
+    border-radius: 100px;
+    padding-left: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#RighContainer{    
+    /* box model include element, padding, border and margin */
+    border: 1px groove red;
+    /* space between element and border*/
+    /* padding:- top, bottom right left */
+
+    /* padding: 12px 12px 20px 20px; */
+    margin: 20px;
+     /* margin is Outer space of an element  */
+    margin-left: 250;
+    padding: 50;
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+}
+.form-control{
+    /* it'll dispaly controls like a block(br) elements */
+    display: block;
+    /* 100% is of the parent which for now is div */
+    width: 100%;
+    height: 30px;
+    border: 1px solid lightgrey;
+    /* rounded corner for border */
+    border-radius: 100px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+/* margin top is space between label and control input box */
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.form-label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+/* form-group is for the entire block which is div */
+.form-group{
+    margin: 12px;
+}
+
+.form-radio{
+    /* it'll dispaly controls like a block(br) elements */
+    display: flex;
+    /* 100% is of the parent which for now is div */
+ 
+    border: 1px solid lightgrey;
+    /* rounded corner for border */
+    border-radius: 100px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+/* margin top is space between label and control input box */
+    margin-top: 4px;
+    font-weight: 900;
+    width: 250px;
+    height: 20px;
+}
+
+.form-signup{
+    float: right;
+    height: 36px;
+    width: 120px;
+    margin: 12px;
+    background-color: greenyellow;
+    border: 1px red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.form-reset{
+    float: right;
+    height: 36px;
+    width: 120px;
+    margin: 12px;
+    background-color: greenyellow;
+    border: 1px red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100px;
+}
+/* 
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+ul{
+    /* this is to remove the point comma list */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    margin-left: 10;
+}
+nav{
+    background-color: blanchedalmond;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.search{
+    height: 30;
+    height: 26;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+}
+
+/* this is point to href element  */
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}

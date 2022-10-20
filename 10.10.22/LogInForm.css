@@ -1,0 +1,71 @@
+#The-container{
+        display: flex;
+}
+
+
+#Left-container{
+    
+    border-left: 1px;
+    /* space between element and border*/
+    /* padding:- top, bottom right left */
+    padding: 150px 0px 100px 100px;
+        /* margin is Outer space of an element  */
+    margin: 20;
+    color: blue;
+    width: 60%;
+}
+/* block for this "LogIn to Green Afterlife" */
+#Right-container{
+    border-left: 1px ;
+    /* space between element and border*/
+    /* padding:- top, bottom right left */
+    padding: 100px 50px 50px 50;
+    /* margin is Outer space of an element  */
+    margin: 20; color: black; 
+}
+h3{
+    font-size: medium;
+}
+ #Imagebody{
+    background-image: url('https://png.pngtree.com/back_origin_pic/03/94/44/6c4f4beec6cdb0d3d1770017173ffb50.jpg');
+/* this is to make it a full size picture*/
+    background-size: 100%;
+}  
+#form-group{
+    margin: 20px;
+}
+
+#form-control{
+    border-radius: 100px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bolder;
+}
+
+#form-label{
+    margin-top: 100px;
+
+}
+#login{
+        cursor: pointer;
+        border-radius: 100px;
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace ;
+        font-weight: bolder;
+        float: left;        
+}
+#ForgotPassword{
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bolder;
+    float: right;
+}
+.signin
+
+
+jnjkn m mainjnjn
+@media screen {
+    
+}

@@ -1,0 +1,128 @@
+
+
+
+<!-- Ctrl+K+C is used to comment -->
+
+<!-- Everything in html file should be inside 
+    opening and closing html tags -->
+<html>
+        <!-- Head includes header information about the page. -->
+        
+        <head>
+            <!-- link tag -->
+            <link rel="stylesheet" href="signupNew.css">
+            <nav>
+                <ul>
+                    <!-- without ancher tag it cannot show -->
+                    <li> <a href="">Home</a></li>
+                    <li> <a href=""> About</a></li>
+                    <li> <a href=""> Contact</a></li>
+                    <li> <input class="search" placeholder="search..." ></li>
+                </ul>
+            </nav>
+        </head>
+        <!-- Body is also element and contains all the controls for UI to form website. -->
+    <body>
+           
+    <!-- this take the entire page or website  -->
+        <div class="container">
+
+            <!-- this div container is for left side -->
+            <!-- <div class="left-container">
+                <img src="" alt="">
+            </div> -->
+            
+
+                <div id="RighContainer" >
+                <!-- this is Header nummber one -->
+                <h1 id="SignupHeader"> Please Sign Up.</h1>
+            
+                <!-- line section to separate -->
+                <hr>
+                <!-- form is a parent of input form-->
+                <form > 
+                    <div class="form-group"  style="width: 500px;">
+                        <label class="form-label">Enter Your Name</label>
+                        <input class="form-control" type="text" name="name" />
+                    </div>
+                    
+                    <div class="form-group">
+                            <label class="form-label">Enter Your Email</label>
+                            <input class="form-control" type="email" />
+                    </div>
+
+                    <div class="form-group">
+                            <label class="form-label">Enter Your Password</label>
+                            <input class="form-control" type="password" />
+                    </div>
+                        
+                <div class="form-group">
+                            <label class="form-label">Enter Your Phone</label>
+                            <input class="form-control" type="tel" />
+                    </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Enter your Date of Birth</label>
+                        <input class="form-control" type="date">
+                        </div>
+                        <!-- (container) div for both label-->
+                        <div class="form-group" style="width: 500px">
+                                <label class="form-label">Gender</label>
+                        <!-- (container) div for individual label too--> 
+                            <div class="form-radio">
+                            <input type="radio" name="gender"> <label>Male</label>
+                            </div>
+                            <div class="form-radio">
+                                <input type="radio" name="gender"> <label>Female</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label  class="form-label">Enter your username</label>
+                        <input class="form-control" type="text" />
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Enter your Address</label>
+                            <!-- Textarea is for multi line text box -->
+                            <textarea class="form-control" cols="30" rows="3"></textarea>
+                        </div>
+
+                        <div  class="form-group"> 
+                            <label class="form-label">Select your Country</label>
+                            <!-- Select is to create a dropdown with multiple options -->
+                            <select class="form-control" name="country" id="country">
+                                <option value="0">USA</option>
+                                <option value="1">UK</option>
+                                <option value="2">China</option>
+                                <option value="3">India</option>
+                                <option value="4">South Africa</option>
+                                <option value="5">Etiopia</option>
+                            </select>
+                        </div>
+                    
+                     <div class="form-group">
+                            <!-- submit tries reading data from controls and submit/send to server,-->      
+                            <input class="form-signup" type="submit" value="SignUp" id="colorofsubmit"/>
+                            <button class="form-reset" type="reset">clear</button>
+                            <a href="Login form assignment.html">login</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <!-- at the bottom of the list -->
+        <footer>
+            <ul>
+                <li><a href="">En</a></li>
+                <li><a href="">Au</a></li>
+                <li><a href="">Eu</a></li>
+                <li><a href="">No</a></li>
+                <li><a href="">Un</a></li>
+            </ul>
+        </footer>
+
+      </body>
+        
+    </html>

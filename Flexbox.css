@@ -1,0 +1,17 @@
+
+
+.main {
+    height: 750px;
+    background-color: brown;
+    display: flex;
+    /* move elements to on x- axis  */
+    justify-content: space-around;
+    /* y- axis  */
+    align-items: center;
+}
+
+.child{
+    color: black;
+    font-size: large;
+    background-color: white;
+}
