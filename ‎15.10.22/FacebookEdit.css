@@ -94,15 +94,48 @@ margin-top: 30px;}
 footer{
     background-color: white;
 }
+.OpprettSide{
+    margin: 4px; 
+    color: aliceblue; 
+    background-color: aliceblue;
+} 
 
-/* apply this to scress sixe greater than < 471px */
-  @media screen and (max-width: 470px) {
-   
+/* apply this to screen less than < 480px */
+  @media screen and (max-width: 480px) {
+    #wholeCOntainer{
+        /* it is a block because it is to be adjustable to smaller screen */
+        display: block;
+    }
+
     #RightContainer{
-        
+        /* I have to reduce overall size to fit the mobile size */
+        margin-top: 6px;
+        margin-bottom: 6px;
+        margin-left: 30px;
+        margin-right: 10px;
+        padding-right: 100;
     }
     #LeftContainer{
         width: 100%;
-        left: 0px;
+        font-size: medium;
+        margin: 4px;
+        padding-left: 6px;
     }
+    #p{
+        font-size:50px;
+        margin-left: 60;
+    }
+    #header2{
+        margin-left: 40;
+        font-size: 20;
+    }
+    .OpprettSide{
+        font-size: 13;
+        margin-left: 40;
+        margin-bottom: 40;
+        color: aliceblue;
+    }
+  .footer{
+    background-color: white;
   }
+}
